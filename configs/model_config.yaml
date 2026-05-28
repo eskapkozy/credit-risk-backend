@@ -1,0 +1,10 @@
+state: "inference"
+
+woe:
+  iv_threshold: 0.02
+  metric: "woe"
+  enabled: true
+  persistence: false
+
+evaluation:
+  threshold: 0.25

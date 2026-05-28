@@ -1,0 +1,89 @@
+il faut repondre a une seul question de toute les metrique existant , lesquel sont applicable, ont ils les elemnet necessaire et reunis pour qu'il soit applique ( regarde les limite du dataset) , est il deja applique dans le dataset (eviter le bruit) , quel suggestion ( suggerer au dela des preselection tout en ayant une interpretabilite metier claire suivis d'un flag ou limite , il faut qu'il est du sens) au vue du dataset et pour ce pilier juge t'on indisponsable : ajouter de nouveau feature.
+parfait on dois maitenant faire une creation de feature , notre methode est etape par etape, on comencera d'abord par la couche predential objectif exploiter les metrique preselectionner pour deriver des feature, d'abord le premier Pilier, puis ma validation ensuite implementation et on passe au prochain pilier c'est le workflow pour tout les pilier. tu prenda aussi Note du garde fou noter . est tu pret ?
+
+Il faut que tout les metrique selectionner sois decrit
+donc ajouter des skills sur les metrique, pour eviter la confusion et le bruit
+
+
+
+
+la lecture des skills doit etre iterative
+    1- prendre connaissance du Pilier :prend connaissance du context de ce pilier et des metrique qu'il explore, tu pourras decrire le nombre de variable sont destiner a ses mesure prutentie, est ce qu'il y'a une couverture complete , Identifie les potentiel perte d'information ( le nombre de metrique prudentiel applicable peut aider a conclure suite a la pauvrete d'information)
+    3- identifie les metrique applicable au variable associer a ce pilier
+    3- Suggestion de feature pour renforcer le l'information, est ce important ( suggestion proposer) , interpretable, tiens  il compte des donne present
+    4- on peut se permettre de creer des poxy, mais pas de'imaginer le dynamique si la nature du dataset ( temporelle ou non)
+
+    2- identifier les metrique Applicable, les element disponibles , est deja present, noter la redendance, verdique ( rejet, adapter, creer)
+    3- Dependament de la nature du dataset, qu'est qu'on peut fair
+        - creer des proxy
+        - creer des ratio
+        - combiner des metrique
+
+        ce qu'il ne faut pas faire vu le dataset si il est static
+            - simuler le dynamique
+
+    3- chaque variable crrer dois repondre a une question
+            Combien il gagne ?
+            Combien il doit déjà ?
+
+
+            Combien il lui reste ?
+
+
+
+La capacite de remboursement analyse la faculté de l'emprunteur a couvrir ces Dette
+Est il en mesure de rembourser SANS difficulté?
+
+						Que faire Avant la mesure de la Capacite de Remboursement ?
+
+
+
+								 Vérification des revenu :    Identifier les revenu réel
+								 Identifier les source de revenu
+								 Identifier l'historique de revenu : Depuis combien de temps travaille il , cela se mesure par Nb ans expériences
+								 Prises en compte des charges :  Identifie les crédit existant , les charge Fixe
+								 Calcule d'une capacité Résiduel :  est ce qu'il existe déjà un résidu ( se qui reste après )
+
+								Résultat : Prévisibilité du cash entrant
+
+									- Mapping ( Revenu, charge fixe , Engament existant ( autre crédit)  )
+                                      Question : est ce que ces charge sont maitrisé
+
+
+
+                        Que cherche t'on ? :
+
+							L'analyste ne cherche pas seulement a savoir si il est en mesure de rembourser mais il cherche
+							Aussi des élément de stabilité et de comportement.
+
+
+
+
+
+
+
+                            Prérequis :
+
+								Chose importante a retenir: la capacite de remboursement est diffèrent de l'endettement , mais elle est impactée par
+								L'endettement
+
+										Endettement  =    Pression Existante
+										Capacite          =    Capacite a absorber cette pression
+
+
+										Conséquence : avant de calcule la capacite s'assure d'avoir des élément de pression
+													  d'ou la prévisibilité ou mapping ( Income, charge, engagement )
+
+
+
+Quel est la proportion du pret dans les revenu ?
+
+	Loan_to_income (LTI) :    Le poid total du pret
+
+1. Quel est la stabilité de ces revenu ?
+
+		• Volatilité du revenu (écart-type des revenus)
+		• Coefficient de variation (σ / moyenne)
+	    • Trend du revenu (pente : stable, en hausse ou en baisse)
+		• % de mois avec revenu ≥ seuil minimum
+	    • Régularité des flux (nombre de mois sans revenu ou avec baisse forte)

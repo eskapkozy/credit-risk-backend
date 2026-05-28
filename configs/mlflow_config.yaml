@@ -1,0 +1,22 @@
+run_id: 4ca0e5311ed64ea3af1e4ab7c8d17661
+
+tracking_uri: "http://localhost:5000"
+experiment_name: "classification"
+
+binning_process:
+  artifact_type: "PKL"
+  ismodel: false
+  name: "binning_process"
+  path: "binning_process"
+
+model_fit:
+  artifact_type: "PKL"
+  ismodel: false
+  name: "ensemble_model"
+  path: "ensemble_model"
+
+stacking_weights:
+  artifact_type: "JSON"
+  ismodel: false
+  name: "stacking_weights"
+  path: "stacking_weights"

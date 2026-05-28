@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a23fa978-e43f-451a-90f7-0ad33825b764" name="Changes" comment="bivariate_analyse_v01">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eskapkozy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eskapkozy/projet_credit_risk_modeling.git&quot;,
+    &quot;accountId&quot;: &quot;36ffd0c0-986f-442d-8543-1da4b9134304&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/config/config.yaml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/pipelines/Feature/fearurePipline.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/pipelines/Feature/woePipline.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/run/lightgbm_train_run.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/run/run_abstraction.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3CD9aGjAv7qWpDa5GiqyxGw5BWa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for src.test.test_predict_router.test_interest_rate_grade_inconsistency.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.test.test_predict_router.test_invalid_loan_grade.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.test.test_predict_router.test_loan_percent_income_inconsistency.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.test.test_predict_router.test_missing_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.test.test_predict_router.test_predict_success.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prudential_features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.util.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/PycharmProjects/projet_credit_risk_modeling/config/ressouces&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/ressouces" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Skills" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pipelines" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/config/ressouces" />
+      <recent name="$PROJECT_DIR$/src/pipelines/Feature" />
+      <recent name="$PROJECT_DIR$/src/service/FeatureEng" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for src.test.test_predict_router.test_interest_rate_grade_inconsistency">
+    <configuration name="Python tests for src.test.test_predict_router.test_interest_rate_grade_inconsistency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projet_credit_risk_modeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_predict_router.test_interest_rate_grade_inconsistency&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.test.test_predict_router.test_invalid_loan_grade" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projet_credit_risk_modeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_predict_router.test_invalid_loan_grade&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.test.test_predict_router.test_loan_percent_income_inconsistency" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projet_credit_risk_modeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_predict_router.test_loan_percent_income_inconsistency&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.test.test_predict_router.test_missing_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projet_credit_risk_modeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_predict_router.test_missing_field&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for src.test.test_predict_router.test_predict_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projet_credit_risk_modeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.test.test_predict_router.test_predict_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for src.test.test_predict_router.test_interest_rate_grade_inconsistency" />
+        <item itemvalue="Python tests.Python tests for src.test.test_predict_router.test_loan_percent_income_inconsistency" />
+        <item itemvalue="Python tests.Python tests for src.test.test_predict_router.test_invalid_loan_grade" />
+        <item itemvalue="Python tests.Python tests for src.test.test_predict_router.test_missing_field" />
+        <item itemvalue="Python tests.Python tests for src.test.test_predict_router.test_predict_success" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a23fa978-e43f-451a-90f7-0ad33825b764" name="Changes" comment="" />
+      <created>1775909334740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775909334740</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ddd">
+      <option name="closed" value="true" />
+      <created>1775909598988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775909598988</updated>
+    </task>
+    <task id="LOCAL-00002" summary="essai2">
+      <option name="closed" value="true" />
+      <created>1775912270888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775912270888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="essai2">
+      <option name="closed" value="true" />
+      <created>1775912312101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775912312101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v01_phase_de_comprehension">
+      <option name="closed" value="true" />
+      <created>1775929782421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775929782421</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v01_phase_de_comprehension">
+      <option name="closed" value="true" />
+      <created>1775930009088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775930009088</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v01_Phase_Nettoyage">
+      <option name="closed" value="true" />
+      <created>1776013883678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776013883678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v01_Phase_Nettoyage">
+      <option name="closed" value="true" />
+      <created>1776074644036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776074644036</updated>
+    </task>
+    <task id="LOCAL-00008" summary="univariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776074782258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1776074782258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="univariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776074789887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776074789887</updated>
+    </task>
+    <task id="LOCAL-00010" summary="univariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776091070388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1776091070388</updated>
+    </task>
+    <task id="LOCAL-00011" summary="univariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776091143340</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1776091143340</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bivariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776130129359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1776130129359</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bivariate_analyse_v01">
+      <option name="closed" value="true" />
+      <created>1776179226335</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1776179226335</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ddd" />
+    <MESSAGE value="essai2" />
+    <MESSAGE value="v01_phase_de_comprehension" />
+    <MESSAGE value="v01_Phase_Nettoyage" />
+    <MESSAGE value="univariate_analyse_v01" />
+    <MESSAGE value="bivariate_analyse_v01" />
+    <option name="LAST_COMMIT_MESSAGE" value="bivariate_analyse_v01" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/run/regression_train.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

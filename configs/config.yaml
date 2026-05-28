@@ -1,0 +1,89 @@
+run:
+  name: "Xgboost Train"
+  version: 1
+  random_state: 42
+  is_train: true
+
+# Model
+model:
+  name: "Xgboost"
+  hyperparameters:
+    regularisation:
+      max_depth: 4
+      min_child_weight: 5
+      reg_lambda: 1.0
+      reg_alpha: 0.1
+      subsample: 0.8
+      colsample_bytree: 0.8
+      learning_rate: 0.1
+    n_estimators: 1000
+    early_stopping_rounds: 10
+    scale_pos_weight manque: 0
+    eval_metric : "logloss"
+
+
+
+
+
+
+# Component
+
+woe:
+  enabled: true
+  iv_threshold: 0.02
+  metric: "woe"
+  persistence: false
+
+
+
+smote:
+  enabled: true
+  sampling_strategy: "auto"
+  random_state: 42
+
+correlation:
+  enabled: true
+  threshold: 0.8
+
+# Evaluation & Metrics
+
+evaluation:
+  roc_auc: true
+  recall: true
+  precision: true
+  f1_score: true
+  confusion_matrix: true
+
+
+
+# stack Used
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment_name: "classification"
+
+  # Artifact path
+  run_artifact_path:
+
+    run_id:  #"802e3adb80994db584fb17d8ec0eeb77"
+    binning_process:
+      name: #"binning_process"
+      path: #"binning_process"
+      artifact_type: #"PKL"
+      ismodel: false
+
+    model_fit:
+      name: #"model_fit"
+      path: #"model_fit"
+      artifact_type: #"PKL"
+      ismodel: false
+
+
+
+
+# Livrable ( Artifacts , Reports , Plot )
+
+artifacts:
+  log_model: true
+  log_woe: true
+  log_reports: true

@@ -1,0 +1,88 @@
+artifacts:
+  log_model: true
+  log_reports: true
+  log_woe: true
+correlation:
+  enabled: true
+  threshold: 0.8
+
+evaluation:
+  confusion_matrix: true
+  f1_score: true
+  f1_threshold: 0.5771382893685052
+  precision: true
+  precision_threshold: 0.42420681551116335
+  recall: true
+  recall_threshold: 0.9025
+  roc_auc: true
+  threshold: 0.24999999999999992
+
+
+mlflow:
+  experiment_name: classification
+  run_artifact_path:
+    base_learners_contributions:
+      artifact_type: JSON
+      ismodel: false
+      name: base_learners_contributions
+      path: base_learners_contributions
+    binning_process:
+      artifact_type: PKL
+      ismodel: false
+      name: binning_process
+      path: binning_process
+    model_fit:
+      artifact_type: PKL
+      ismodel: false
+      name: ensemble_model
+      path: ensemble_model
+    run_id: efc14cef86ac4cd7b572eabcfa5df421
+    stacking_weights:
+      artifact_type: JSON
+      ismodel: false
+      name: stacking_weights
+      path: stacking_weights
+  tracking_uri: http://localhost:5000
+model:
+  hyperparameters:
+    calibration_cv: 5
+    lgbm:
+      colsample_bytree: 0.8
+      learning_rate: 0.05
+      n_estimators: 500
+      num_leaves: 63
+      subsample: 0.8
+    lr:
+      C: 1.0
+    meta:
+      C: 0.1
+    passthrough: false
+    rf:
+      max_features: sqrt
+      n_estimators: 300
+    smote_sampling_strategy: 0.3
+    stacking_cv_folds: 5
+    svm:
+      C: 1.0
+    xgb:
+      colsample_bytree: 0.8
+      learning_rate: 0.05
+      max_depth: 6
+      n_estimators: 500
+      subsample: 0.8
+  name: ensemble_heterogene_v1
+  type: stacking_heterogeneous
+run:
+  is_train: false
+  name: ensemble_heterogene Test
+  random_state: 42
+  version: 1
+smote:
+  enabled: true
+  random_state: 42
+  sampling_strategy: auto
+woe:
+  enabled: true
+  iv_threshold: 0.02
+  metric: woe
+  persistence: false

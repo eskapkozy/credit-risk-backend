@@ -4,7 +4,7 @@ from src.api.utils import load_config
 class Mlflow_config:
 
     def __init__(self):
-        config_path = "/Users/macbookpro/PycharmProjects/projet_credit_risk_modeling/configs/mlflow_config.yaml"
+        config_path = "/Users/macbookpro/credit-risk-platform/backend/configs/mlflow_config.yaml"
 
         self.config = load_config(config_path)
 

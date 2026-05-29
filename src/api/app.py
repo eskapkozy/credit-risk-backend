@@ -8,6 +8,8 @@ app = FastAPI()
 
 predict_router = PredictRouter().register_routes()
 
+# todo: corriger l'origini et utilise une variable d'environement
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], #["http://localhost:5173"], #["http://localhost:3000"],  # ou "*" ajouter le serveur client

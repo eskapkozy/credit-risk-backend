@@ -1,4 +1,4 @@
-
+import os
 
 from src.api.utils import load_config
 
@@ -7,7 +7,7 @@ class Model_config():
 
     def __init__(self):
 
-        config_path = "/Users/macbookpro/credit-risk-platform/backend/configs/model_config.yaml"
+        config_path =os.getenv("MODEL_CONFIG_PATH","configs/model_config.yaml")
         self.config = load_config(config_path)
 
         self.state = self.config['state']

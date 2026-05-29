@@ -1,10 +1,11 @@
 from src.api.utils import load_config
+import os
 
 
 class Mlflow_config:
 
     def __init__(self):
-        config_path = "/Users/macbookpro/credit-risk-platform/backend/configs/mlflow_config.yaml"
+        config_path = os.getenv("MLFLOW_CONFIG_PATH","configs/mlflow_config.yaml")
 
         self.config = load_config(config_path)
 
@@ -15,3 +16,4 @@ class Mlflow_config:
         self.binning_process = self.config['binning_process']
         self.model_fit = self.config['model_fit']
         self.stacking_weights = self.config['stacking_weights']
+
